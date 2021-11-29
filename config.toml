@@ -1,0 +1,74 @@
+baseURL = "https://calm-pond-00e909703.azurestaticapps.net/"
+languageCode = "de-de"
+title = "Daniel Hug"
+theme = "minimal"
+#disqusShortname = "dernerl" # delete this to disable disqus comments
+googleAnalytics = ""
+paginate = 6
+
+[params]
+    author = "Daniel Hug"
+    description = "Personal blog theme powered by Hugo"
+    githubUsername = "dernerl"
+    accent = "blue"
+    showBorder = true
+    backgroundColor = "white"
+    font = "Raleway" # should match the name on Google Fonts!
+    highlight = true
+    highlightStyle = "default"
+    highlightLanguages = ["go", "haskell", "kotlin", "scala", "swift","powershell"]
+
+[[menu.main]]
+    url = "/"
+    name = "Home"
+    weight = 1
+
+[[menu.main]]
+    url = "/about/"
+    name = "About"
+    weight = 2
+
+[[menu.main]]
+    url = "/post/"
+    name = "Posts"
+    weight = 3
+
+[[menu.main]]
+    url = "/trackrecord/"
+    name = "Track Records"
+    weight = 4
+
+# Social icons to be shown on the right-hand side of the navigation bar.
+# The "name" field should match the name of the icon in Font Awesome.
+# The list of available icons can be found at http://fontawesome.io/icons.
+
+#[[menu.icon]]
+#    url = "mailto:me@example.com"
+#    name = "fas fa-envelope"
+#    weight = 1
+
+[[menu.icon]]
+    url = "https://github.com/dernerl/"
+    name = "fab fa-github"
+    weight = 2
+
+#[[menu.icon]]
+#    url = "https://twitter.com/modernarbeide/"
+#    name = "fab fa-twitter"
+#    weight = 3
+
+[[menu.icon]]
+    url = "https://www.xing.com/profile/Daniel_Hug18/"
+    name = "fab fa-xing-square"
+    weight = 4
+    
+
+[[menu.icon]]
+    url = "https://www.linkedin.com/in/dernerl/"
+    name = "fab fa-linkedin"
+    weight = 5
+
+#[[menu.icon]]
+#    url = "https://www.stackoverflow.com/username/"
+#   name = "fab fa-stack-overflow"
+#    weight = 6
